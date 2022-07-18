@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모리의 블로그</title>
+
+    <!--CSS 연동-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/css/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Header Start-->
+    <header>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">홈</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">블로그</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bbs.html">게시판</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    자료실
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      <!--Navbar End-->
+    </header>
+    <!--Header End-->
+
+
+    <!--bbs-->
+    <section class="breadCrumb">
+        <div class="container">           
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">홈</a></li>
+                <li class="breadcrumb-item active" aria-current="page">게시판</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!--bbs-->
+
+    
+    <!--Intro Area-->
+    <section class="bbs">
+      <div class="container">
+        <div class="row">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">글쓴이</th>
+                <th scope="col">제목</th>
+                <th scope="col">날짜</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td><a href="bbs-detail.html" class="bbsTitle"</a>질문</td>
+                <td>2022.08.11</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td><a href="bbs-detail.html" class="bbsTitle"</a>안녕하세요</td>
+                <td>2022.05.14</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Larry the Bird</td>
+                <td><a href="bbs-detail.html" class="bbsTitle"</a>첫 게시글입니다</td>
+                <td>2021.12.30</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="row">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">등록</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="bbs.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Intro Area-->
+
+
+    <!--Footer Start-->
+    <footer>
+        <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fuga? Porro modi laudantium commodi vel corporis</p>
+              <p class="card-text">Made By mori</p>
+              <p class="card-text">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+
+
+    <!--자바스크립트 연동-->
+    <script src="assets/css/main.js"></script>
+    <script src="assets/css/bootstrap.js"></script>
+</body>
+</html>
